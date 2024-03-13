@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AppBranch
 {
-	internal class Student
+	public class Student
 	{
+        public int MyProperty { get; set; }
 	}
 }
